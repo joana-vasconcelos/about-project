@@ -32,10 +32,6 @@ p {
   line-height: 1.5;
 }
 
-.container-fluid {
-  margin: 0 55px;
-}
-
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -69,6 +65,7 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
@@ -101,9 +98,14 @@ p {
 }
 
 .row {
-  width: 100%;
-  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.container {
+  width: 100%;
+}
+
 @media (max-width: 576px) {
   h2 {
     text-align: center;
