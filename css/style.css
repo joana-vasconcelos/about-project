@@ -57,7 +57,7 @@ p {
   border: 1px solid var(--primary-color);
 }
 
-.primary-link {
+.project-link {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
@@ -120,7 +120,7 @@ p {
     text-align: center;
   }
 
-  .primary-link {
+  .project-link {
     display: block;
     text-align: center;
     margin: 0 20px;
